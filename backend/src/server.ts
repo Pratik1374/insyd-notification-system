@@ -10,7 +10,10 @@ export function initExpressApp(): Application {
 
   app.use(
     cors({
-      origin: "http://localhost:3000",
+      origin: [
+        "http://localhost:3000",
+        "https://insyd-notification-system.vercel.app",
+      ],
       methods: ["GET", "POST", "PATCH"],
       allowedHeaders: ["Content-Type"],
     })

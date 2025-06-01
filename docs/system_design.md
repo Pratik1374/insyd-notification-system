@@ -23,7 +23,7 @@ The Insyd Notification System Proof-of-Concept (POC) is built to demonstrate rea
     2.  A WebSocket listener that wraps incoming messages into unread notifications (`isRead = false`, `seenAt = null`).
     3.  A helper `PATCH /notifications/:id/read` to mark any notification as read, updating its `isRead` → `true` and `seenAt` → timestamp.
 
-- **Deployment**: Hosted at `https://insyd-notification-system.vercel.app`.
+- **Deployment**: Hosted at [https://insyd-notification-system.vercel.app](https://insyd-notification-system.vercel.app)
 
 - **Key Details**:
 
